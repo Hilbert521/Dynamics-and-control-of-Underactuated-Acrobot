@@ -1,0 +1,4 @@
+1. Dependence of l1 and l2- When l1 and l2 are close then balancing is not robust, with swing-up(okay) but without swing-up(unstable)-----weird.
+2. Impulse cannot work with second joint free.
+3. We can lock second joint and then giving impulse might work, but angle between joints should be close to 180(>170 atleast).
+
